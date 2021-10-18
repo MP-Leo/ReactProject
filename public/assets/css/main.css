@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+
+
+	body{
+		padding: 12em 0 10em 0;
+		background-image: url('../../images/death star.jpg');
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+
+/* Basic */
+
+
+
+	body {
+		-ms-overflow-style: scrollbar;
+	}
+
+
+
+
+/* Type */
+
+	body, input, select, textarea {
+		color: #9a9a9a;
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.65;
+	}
+
+
+
+
+/* Header */
+
+#header {
+	color: #d4e0ef;
+	cursor: default;
+	height: 3.25em;
+	line-height: 3.25em;
+	position: absolute;
+	text-align: center;
+	top: 2em;
+	width: 100%;
+	z-index: 10001;
+}	
+
+	#header a {
+		-moz-transition: color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out;
+		display: inline-block;
+		padding: 0 0.75em;
+		color: inherit;
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	#header #main-elements{
+		font-weight: 800;
+	}
+
+		#header a:hover {
+			color: #5495df;
+		}
+
+
+/* Banner */
+
+#banner {
+	text-align: center;
+	border-style: solid;
+	border-color: #d4e0ef ;
+
+}
+
+	#banner h1 {
+		font-size: 3.3em;
+		font-weight: 100;
+		color: #d4e0ef;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+	}
+
+	#banner p {
+		font-size: 1em;
+		color: #d4e0ef;;
+		margin-bottom: 1.75em;
+	}
+
+
+
+/* Input */
+input{
+	
+	background-color: #5a5a5a21;
+	border-radius: 15px;
+	border-radius: 0;
+	border: none;
+	border: solid 1px #d4e0ef;;
+	color: #d4e0ef;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 600;
+	height: 35px;
+	width: 350px;
+	line-height: 2.95em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	
+}
+
+/* Form */
+#div-form{
+
+	margin-top: 10px;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+/* Button */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+
+button{
+
+	background-color: #5a5a5a21;
+	border-radius: 15px;
+	border-radius: 0;
+	border: none;
+	border: solid 1px #d4e0ef;;
+	color: #d4e0ef;
+	cursor: pointer;
+	font-weight: 600;
+	height: 2.85em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	
+}
+
+	button:hover{
+		color: #5495df;
+		border-color: #5495df;
+	}
+
+
+
+/* Section */
+#div-section{
+		
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+	color: #d4e0ef;
+
+}
+
+	#div-section ul li{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+
+
+/* Films */
+
+.div-api-elements{
+	text-align: center;
+	font-size: 30px;
+}
